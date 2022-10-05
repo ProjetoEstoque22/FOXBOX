@@ -39,7 +39,7 @@ body {
 
   /* Quadrados - alinhamento e display - COMEÇO */
     .quadrado1{
-      height: 5vw;
+      height: 5vh;
       background-color: rgb(111, 28, 158);
       margin-left: 50%;
       width: 50%;
@@ -49,7 +49,7 @@ body {
     .quadrado2{
       background-color: rgb(111, 28, 158);
       width: 50vw;
-      height: 89.9vh;
+      height: 95vh;
       display: flex;
     }
 
@@ -57,9 +57,10 @@ body {
 
   /* Imagem ajuste */
       .imagem{
-        width: 28vw;
-        height: 28vw;
-        margin: 5vw 0vw 0vw 5.5vw;
+        width: 25vw;
+        height: 32vw;
+        margin-left: 40%;
+        margin-top: 28%;      
       }
 /* Fundo - FIM */
 
@@ -81,15 +82,15 @@ body {
 /* Formulário fundo, cor e tamanho - COMEÇO */
 .form-cadastro{
   color: #fff;
-  margin-left: 10vw;
+  margin-left: 10%;
+  margin-top: 25%;
   margin-bottom: 2vw;
-  height: 35vw ;
-  margin-top: 2vw;
-  width: 33vw;
+  height: 37vw ;
+  width: 32vw;
   border: 0.15vw solid rgb(169, 169, 169);
   border-radius: 1.3vw;
   background-color: rgb(84, 84, 84);
-  padding: 3vw 4vw 3vw 4vw;
+  padding: 3vw 4vw 4vw 4vw;
 }
 
   /* TEXTOS */
