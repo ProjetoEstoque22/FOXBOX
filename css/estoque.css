@@ -1,0 +1,256 @@
+/* Importando fontes padrão */
+@import url("./fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/*Zerando CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* Deixa responsivo */
+
+@media screen and (min-width: 25em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+/* Safari <8 and IE <11 */
+@media screen and (min-width: 25em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+@media screen and (min-width: 50em){
+
+html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+}
+
+
+/* NAV BAR - COMEÇO */
+
+  /* Cor e tamanho da nav-bar */
+  header{
+  width: 100%;
+  height: 4.2vw;
+  background-color: rgba(111, 28, 158,0.8);
+  position: relative;
+}
+
+  /* Elementos da nav-bar - Formato geral */
+  .menu-content {
+    font-family: 'calibri';
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+  }
+
+  /* Itens nav-bar - Posição */
+  .menu-content .list-itens{  
+    align-items: center;  
+    font-size: 1.5vw;
+    display: flex;
+    list-style: none;
+    gap: 1.5vw;  
+  }
+  
+    /* Textos nav-bar*/
+    .list-itens a {
+      text-decoration: none;
+      color: #fff;  
+      padding: 0.5rem;
+      transform: 2ms ease-in;
+      position: relative;
+    }
+
+    /* Hover da nav-bar*/
+    .list-itens a:hover {
+      background-color: rgba(255,255,255,0.3);
+      /*letter-spacing: 0.1rem;*/
+    }
+
+  /* Epecificações - nav-bar */
+
+    /* Logo nav-bar */
+      /*Posição*/
+      .logo{
+          align-items: center;
+          list-style:none;
+          font-size: 2.5vw;  
+          padding: 1rem; 
+          display: flex;
+          gap: 1vw;
+        }
+      /*fonte*/
+      .logo a{ 
+          text-decoration: none;
+          color: #ffffff;
+          position: fixed;
+          font-family: 'Archivo Black';
+}   
+  
+    /* Imgem do estoque - tamanho e alinhamento*/
+      .list-itens a img{ 
+        align-items: center;
+        list-style:none;
+        display: initial;
+        width: 1.5vw;
+        gap: 1vw;
+      }
+
+  /* Fim das especificações*/
+
+/* NAV BAR - FIM */
+
+
+/*ESTOQUE-PRINCIPAL*/
+
+.alinhamento {
+  padding-top: 2vh;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2vw;
+}
+.bloco-principal {
+  font-size: 2.9vw;
+  font-family: 'Archivo Black';
+  color: #fff;
+  text-align: center;
+  padding: 4vw;
+  width: 45vw;
+  height: 22.5vw;
+  background-color: rgb(84, 84, 84);
+  
+}
+.bloco-secundario {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+}
+#boxes {
+  width: 9vw;
+  height: 9vw;
+  border-radius: 0.7vw;
+}
+.add {
+  display: flex;
+}
+.add1 {
+  display: flex;
+}
+.add button {
+  background-repeat: no-repeat;
+  background-image: url('/images/mais.png');
+  background-size: contain;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.7vw;
+}
+.add1 button {
+  background-repeat: no-repeat;
+  background-image: url('/images/mais.png');
+  background-size: contain;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.7vw;
+}
+
+/*PRODUTOS-ESPECIFICOS*/
+
+.second-main {
+  margin-top: 6vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+#blocos {
+  display: flex;
+  justify-content: center;
+/*   align-content: center; */
+/*   align-items: center; */
+  background-color: rgb(84, 84, 84);
+  width: 17.4vw;
+  height: 37vh;
+  border-radius: 0.7vw;
+  font-family: 'Archivo Black';
+  font-weight: 500;
+  font-size: 1.6vw;
+  text-align: center;
+  color: #fff;
+}
+#content {
+  position: relative;
+  background-color: rgb(255, 140, 0);
+  width: 100%;
+  height: 28vh;
+  margin: 8% 8% 0 8%;
+}
+#content h5 {
+  font-size: 1vw;
+  font-weight: lighter;
+  margin-top: 3vh;
+}
+/*SECOND-MAIN*/
+
+/*THIRD-MAIN*/
+
+.third-main {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+#info {
+  position: relative;
+  width: 80%;
+  height: 80vh;
+/*   background-color: #848484; */
+  border: 3px solid #848484;
+}
+#desc {
+  position: relative;
+  width: 3vw;
+  height: 3vh;
+  border: 1px solid black;
+}
+#desc p {
+  font-size: 1vw;
+}
+#barra {
+  position: absolute;
+  top: 0;
+  background-color: rgb(111, 28, 158);
+  width: 100%;
+  height: 8vh;
+}
+#barra h2 {
+  color: #fff;
+  font-size: 3vw;
+  font-family: 'Archivo Black';
+  padding: 0.2vw;
+  padding-left: 1vw;
+}
